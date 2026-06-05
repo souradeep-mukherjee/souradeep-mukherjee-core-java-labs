@@ -19,6 +19,7 @@ public class SumofCubes {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the number: ");
 		int n = sc.nextInt();
+		sc.close();
 		System.out.println("The sum of the cubes is = "+SumofCubes.cubesum(n));
 	}
 
